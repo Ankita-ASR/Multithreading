@@ -5,9 +5,9 @@ class NamingRunnable implements Runnable {
     }
 
     public static void main(String[] args) {
-        Thread thread1 = new Thread(new NamingRunnable(), "Alpha");
-        Thread thread2 = new Thread(new NamingRunnable(), "Beta");
-        Thread thread3 = new Thread(new NamingRunnable(), "Gamma");
+        Thread thread1 = new Thread(new NamingRunnable(), "Amy");
+        Thread thread2 = new Thread(new NamingRunnable(), "Any");
+        Thread thread3 = new Thread(new NamingRunnable(), "Rony");
 
         thread1.start();
         thread2.start();
